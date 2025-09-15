@@ -6,6 +6,6 @@ Total posts: {{ site.posts | size }}
 
 <ul>
 {% for page in site.pages %}
-  <li><a href="{{ page.url }}">{{ page.title | default: page.url }}</a></li>
+  <li><a href="/Jekyll-test/{{ page.url }}">{{ page.title | default: page.url }}</a></li>
 {% endfor %}
 </ul>
